@@ -186,12 +186,12 @@
                         <div class="download-cta d-flex justify-content-between col-10 p-0 animate__animated animate__pulse animate__delay-2s animate__infinite">
                             <div class="col-6 pl-0">
                                 <a href="#banner">
-                                    <img src="images/google.svg" alt="Google playstore image">
+                                    <img src="images/google.png" alt="Google playstore image">
                                 </a>
                             </div>
                             <div class="col-6 pr-0">
                                 <a href="#banner">
-                                    <img src="images/app.svg" alt="Appstore image">
+                                    <img src="images/app.png" alt="Appstore image">
                                 </a>
                             </div>
                         </div>
