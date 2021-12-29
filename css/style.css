@@ -219,7 +219,9 @@ section {
 }
 
 #userEmail {
-    background: #FFFFFF;
+    background: #fff;
+    font-size: 0.9rem;
+    text-align: center;
     border-radius: 30px;
     box-sizing: border-box;
     border: 0.5px solid rgba(201, 71, 30, 0.3);
