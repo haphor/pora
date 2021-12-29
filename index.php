@@ -45,7 +45,7 @@
                         Join the waitlist
                     </p>
                     <div class="col-12 col-md-8 pl-0 animate__animated animate__zoomInUp animate__slower animate__delay-2s">
-                        <form action="">
+                        <form action="javascript:void(0)" method="post" id="wait-form">
                             <div class="col col-12 md-form p-0">
                                 <span id="userEmail-info" class="info"></span><br />
                                 <input type="text" name="userEmail" id="userEmail" class="demoInputBox" />
@@ -58,6 +58,8 @@
                                 </button>
                             </div>
                         </form>
+                        <span id="error" style="display: none"></span>
+                        <div id="show_message" style="display: none"></div>
                     </div>
                 </div>
             </div>
