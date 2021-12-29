@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <header class="fixed">
+    <header class="static">
         <div class="container">
             <div id="logo" class="d-flex justify-content-start">
                 <a href="#">
@@ -41,7 +41,7 @@
                     <h1 class="animate__animated animate__fadeInDownBig animate__slow mb-4">
                         Find love that blooms and friendship that stands the test of time.
                     </h1>
-                    <p class="animate__animated animate__pulse animate__slow animate__delay-2s animate__infinite">
+                    <p class="pl-2 animate__animated animate__pulse animate__slow animate__delay-2s animate__infinite">
                         Join the waitlist
                     </p>
                     <div class="col-12 col-md-8 pl-0 animate__animated animate__zoomInUp animate__slower animate__delay-2s">

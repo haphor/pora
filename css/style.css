@@ -207,6 +207,11 @@ section {
     z-index: 99;
 }
 
+.static {
+    width: 100%;
+    margin-bottom: -85px;
+}
+
 #banner {
     height: 100vh;
     background-size: 100% 100%;
