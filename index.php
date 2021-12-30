@@ -41,7 +41,7 @@
                     <h1 class="animate__animated animate__fadeInDownBig animate__slow mb-4">
                         Find love that blooms and friendship that stands the test of time.
                     </h1>
-                    <p style="font-weight: bolder;font-size: 1rem;margin-bottom: 5px;" class="animate__animated animate__shakeX animate__slow animate__delay-2s animate__infinite">
+                    <p style="font-weight: bolder;font-size: 1rem;margin-bottom: 5px;" class="pl-2 animate__animated animate__shakeX animate__slow animate__delay-2s animate__infinite">
                         Join the waitlist
                     </p>
                     <div class="col-12 col-md-8 pl-0 animate__animated animate__zoomInUp animate__slower animate__delay-2s">
