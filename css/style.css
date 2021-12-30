@@ -92,7 +92,7 @@ h2 {
 .hover-zoomOut {
     display: block;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .hover-zoomin img,
