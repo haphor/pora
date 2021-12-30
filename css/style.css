@@ -385,6 +385,16 @@ footer ul li.vr span {
 }
 
 @media (max-width: 768px) {
+    .static {
+        position: sticky;
+        padding-top: 1rem;
+        z-index: 99;
+    }
+    #banner {
+        background-size: 120% 90%;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
     #banner:before {
         content: "";
         position: absolute;
@@ -433,18 +443,27 @@ footer ul li.vr span {
 }
 
 @media (max-width: 500px) {
+    #banner {
+        background-size: 140% 90%;
+    }
     .download-img img {
         margin-left: -50px;
     }
 }
 
 @media (max-width: 400px) {
+    #banner {
+        background-size: 150% 85%;
+    }
     .download-img img {
         margin-left: -90px;
     }
 }
 
 @media (max-width: 380px) {
+    #banner {
+        background-size: 160% 80%;
+    }
     .download-img img {
         margin-left: -105px;
     }
