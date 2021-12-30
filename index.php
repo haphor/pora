@@ -84,39 +84,39 @@
 
     <section id="avatar" class="py-5">
         <div class="d-flex justify-content-between col-12 p-0">
-            <div class="hover-rotate animate__animated animate__rotateIn">
+            <div class="hover-zoomin animate__animated animate__rotateIn">
                 <img src="images/avatar-1.png" alt="Single Africans" class="half-img " />
             </div>
-            <div class="hover-rotate animate__animated animate__zoomIn">
+            <div class="hover-zoomin animate__animated animate__zoomIn">
                 <img src="images/avatar-2.png" alt="Single Africans" />
             </div>
-            <div class="hover-rotate animate__animated animate__jackInTheBox">
+            <div class="hover-zoomin animate__animated animate__jackInTheBox">
                 <img src="images/avatar-3.png" alt="Single Africans" />
             </div>
-            <div class="hover-rotate animate__animated animate__rotateIn animate__delay-1s">
+            <div class="hover-zoomin animate__animated animate__rotateIn animate__delay-1s">
                 <img src="images/avatar-4.png" alt="Single Africans" />
             </div>
-            <div class="hover-rotate animate__animated animate__zoomIn animate__delay-1s">
+            <div class="hover-zoomin animate__animated animate__zoomIn animate__delay-1s">
                 <img src="images/avatar-5.png" alt="Single Africans" />
             </div>
-            <div class="hover-rotate animate__animated animate__jackInTheBox animate__delay-1s">
+            <div class="hover-zoomin animate__animated animate__jackInTheBox animate__delay-1s">
                 <img src="images/avatar-6.png" alt="Single Africans" class="last-img" />
             </div>
         </div>
         <div class="d-flex justify-content-between col-12 p-0">
-            <div class="hover-rotate animate__animated animate__rotateIn animate__delay-2s">
+            <div class="hover-zoomin animate__animated animate__rotateIn animate__delay-2s">
                 <img src="images/avatar-7.png" alt="Single Africans" />
             </div>
-            <div class="hover-rotate animate__animated animate__zoomIn animate__delay-2s">
+            <div class="hover-zoomin animate__animated animate__zoomIn animate__delay-2s">
                 <img src="images/avatar-8.png" alt="Single Africans" />
             </div>
-            <div class="hover-rotate animate__animated animate__jackInTheBox animate__delay-2s">
+            <div class="hover-zoomin animate__animated animate__jackInTheBox animate__delay-2s">
                 <img src="images/avatar-9.png" alt="Single Africans" />
             </div>
-            <div class="hover-rotate animate__animated animate__rotateIn animate__delay-3s">
+            <div class="hover-zoomin animate__animated animate__rotateIn animate__delay-3s">
                 <img src="images/avatar-10.png" alt="Single Africans" />
             </div>
-            <div class="hover-rotate animate__animated animate__rotateIn animate__delay-3s">
+            <div class="hover-zoomin animate__animated animate__rotateIn animate__delay-3s">
                 <img src="images/avatar-11.png" alt="Single Africans" />
             </div>
         </div>
