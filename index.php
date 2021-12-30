@@ -34,6 +34,7 @@
             </div>
         </div>
     </header>
+
     <section id="banner" class="d-flex justofy-content-start">
         <div class="container">
             <div class="d-flex align-items-center h-100">
@@ -69,10 +70,10 @@
     <section id="about" class="py-md-0 py-3">
         <div class="container">
             <div class="d-md-flex justify-content-around align-items-center align-content-center py-2 py-md-5">
-                <div class="about-image col-12 col-md-6 px-0 py-5 animate__animated animate__heartBeat animate__slower animate__repeat-2">
+                <div class="about-image col-12 col-md-6 px-0 py-md-5 pb-1 animate__animated animate__heartBeat animate__slower animate__repeat-2">
                     <img src="images/about-image.png" alt="About PORA section image" />
                 </div>
-                <div class="about-text col-12 col-md-4 p-4">
+                <div class="about-text col-12 col-md-4 p-4 mb-4 mb-md-0">
                     <h2 class="mb-3">About PORA</h2>
                     <p>
                         Pora is a dating and friendship community for mature African singles in the diaspora. Meet thousands of like-minded African singles wherever you are in the world and connect at lightning speed.

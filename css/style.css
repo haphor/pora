@@ -404,9 +404,9 @@ footer ul li.vr span {
         background-color: rgba(255, 255, 255, 0.5);
     }
     #works .works-content {
-        padding: 60px 0px;
-        background-size: 80% 100%;
-        background-position: 50% 100%;
+        background-size: 40%;
+        padding: 365px 0px 60px;
+        background-position: top center;
     }
     .download-content {
         color: #fff;
@@ -446,6 +446,9 @@ footer ul li.vr span {
     #banner {
         background-size: 140% 90%;
     }
+    #works .works-content {
+        padding-top: 330px;
+    }
     .download-img img {
         margin-left: -50px;
     }
@@ -454,6 +457,10 @@ footer ul li.vr span {
 @media (max-width: 400px) {
     #banner {
         background-size: 150% 85%;
+    }
+    #works .works-content {
+        padding-top: 270px;
+        background-size: 50%;
     }
     .download-img img {
         margin-left: -90px;
@@ -464,6 +471,9 @@ footer ul li.vr span {
     #banner {
         background-size: 160% 80%;
     }
+    #works .works-content {
+        background-size: 52%;
+    }
     .download-img img {
         margin-left: -105px;
     }
@@ -473,10 +483,16 @@ footer ul li.vr span {
     .download-img img {
         width: 500px;
     }
+    #works .works-content {
+        background-size: 60%;
+    }
 }
 
 @media (max-width: 320px) {
     .download-img img {
         margin-left: -120px;
+    }
+    #works .works-content {
+        background-size: 66%;
     }
 }
