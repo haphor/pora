@@ -25,48 +25,60 @@
 </head>
 
 <body>
-    <header class="static">
-        <div class="container">
-            <div id="logo" class="d-flex justify-content-start">
-                <a href="#">
-                    <img src="images/logo.png" alt="PORA Logo" />
-                </a>
-            </div>
-        </div>
-    </header>
-
-    <section id="banner" class="d-flex justofy-content-start">
-        <div class="container">
-            <div class="d-flex align-items-center h-100">
-                <div class="d-flex flex-column items-justified-left col-12 col-md-5">
-                    <h1 class="animate__animated animate__fadeInDownBig animate__slow mb-4">
-                        Find love that blooms and friendship that stands the test of time.
-                    </h1>
-                    <p style="font-weight: bolder;font-size: 1rem;margin-bottom: 5px;" class="pl-2 animate__animated animate__shakeX animate__slow animate__delay-2s animate__infinite">
-                        Join the waitlist
-                    </p>
-                    <div class="col-12 col-md-8 pl-0 animate__animated animate__zoomInUp animate__slower animate__delay-2s">
-                        <form action="javascript:void(0)" method="post" id="wait-form">
-                            <div class="col col-12 md-form p-0">
-                                <span id="userEmail-info" class="info"></span><br />
-                                <input type="text" name="userEmail" id="userEmail" class="demoInputBox" />
-                                <label for="userEmail"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email Address</label>
-                            </div>
-
-                            <div class="col-12 form-submit p-0">
-                                <button name="submit" class="btn btn-block" id="submit">
-                                    Join<span></span><span></span><span></span><span></span>
-                                </button>
-                            </div>
-                        </form>
-                        <span id="error" style="display: none"></span>
-                        <div id="show_message" style="display: none"></div>
+    <div class="d-md-flex flex-column-reverse">
+        <section id="header">
+            <header class="static">
+                <div class="container">
+                    <div id="logo" class="d-flex justify-content-start">
+                        <a href="#">
+                            <img src="images/logo-new.png" alt="PORA Logo" />
+                        </a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </header>
 
+            <section id="banner" class="d-flex justofy-content-start">
+                <div class="container">
+                    <div class="d-flex align-items-center h-100">
+                        <div class="d-flex flex-column items-justified-left col-12 col-md-5">
+                            <h1 class="animate__animated animate__fadeInDownBig animate__slow mb-4">
+                                Find love that blooms and friendship that stands the test of time.
+                            </h1>
+                            <p style="max-width: 100%;width: 350px;font-size: 1rem;margin-bottom: 5px;" class="pl-2 animate__animated animate__shakeX animate__slow animate__delay-2s animate__infinite">
+                                Join the waitlist to enjoy all of Pora's premium features for free for 30 days!
+                            </p>
+                            <div class="col-12 col-md-8 pl-0 animate__animated animate__zoomInUp animate__slower animate__delay-2s">
+                                <form action="javascript:void(0)" method="post" id="wait-form">
+                                    <div class="col col-12 md-form p-0">
+                                        <span id="userEmail-info" class="info"></span><br />
+                                        <input type="email" name="userEmail" id="userEmail" class="demoInputBox" />
+                                        <label for="userEmail"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email Address</label>
+                                    </div>
+
+                                    <div class="col-12 form-submit p-0">
+                                        <button name="submit" class="btn btn-block" id="submit">
+                                            Join<span></span><span></span><span></span><span></span>
+                                        </button>
+                                    </div>
+                                </form>
+                                <span id="error" style="display: none"></span>
+                                <div id="show_message" style="display: none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="countdown" class="py-3 py-md-0">
+            <div class="container">
+                <div class="d-flex flex-md-row flex-column justify-content-around content-align-center align-items-center">
+                    <p>Launching Valentines Day 2022!</p>
+                    <div id="launch_countdown"></div>
+                </div>
+            </div>
+        </section>
+    </div>
     <section id="about" class="py-md-0 py-3">
         <div class="container">
             <div class="d-md-flex justify-content-around align-items-center align-content-center py-2 py-md-5">
@@ -83,6 +95,11 @@
         </div>
     </section>
 
+    <section id="kente" class="py-md-0 py-3">
+        <img style="width: 100%;" src="images/kente.png" alt="PORA Kente" />
+    </section>
+
+
     <section id="avatar" class="py-5">
         <div class="d-flex justify-content-between col-12 p-0">
             <div class="hover-zoomin animate__animated animate__rotateIn">
@@ -98,7 +115,7 @@
                 <img src="images/avatar-4.png" alt="Single Africans" />
             </div>
             <div class="hover-zoomin animate__animated animate__zoomIn animate__delay-1s">
-                <img src="images/avatar-5.png" alt="Single Africans" />
+                <img src="images/avatar-5-5.png" alt="Single Africans" />
             </div>
             <div class="hover-zoomin animate__animated animate__jackInTheBox animate__delay-1s">
                 <img src="images/avatar-6.png" alt="Single Africans" class="last-img" />
@@ -106,7 +123,7 @@
         </div>
         <div class="d-flex justify-content-between col-12 p-0">
             <div class="hover-zoomin animate__animated animate__rotateIn animate__delay-2s">
-                <img src="images/avatar-7.png" alt="Single Africans" />
+                <img src="images/avatar-7-7.png" alt="Single Africans" />
             </div>
             <div class="hover-zoomin animate__animated animate__zoomIn animate__delay-2s">
                 <img src="images/avatar-8.png" alt="Single Africans" />
@@ -139,29 +156,29 @@
     <section id="works" class="py-5">
         <div class="container">
             <h2 class="text-center mb-md-5 mb-2">How PORA works</h2>
-            <div class="works-content d-flex flex-column align-items-end">
-                <div class="work-item d-flex flex-column align-items-start col-12 col-md-4 hover-zoomin animate__animated animate__fadeInTopRight p-4 mb-4">
+            <div class="works-content d-flex flex-column align-items-center">
+                <div class="work-item d-flex flex-column align-items-start col-12 col-md-4 offset-md-6 hover-zoomin animate__animated animate__fadeInTopRight p-4 mb-4">
                     <img src="images/profile.svg" alt="Profile icon" />
                     <h4>Add your free profile</h4>
                     <p>
                         Begin your journey to great companionship. Sign up, verify your account and answer a series of interesting questions intended to sort your preferences and help personalize your experience.
                     </p>
                 </div>
-                <div class="work-item d-flex flex-column align-items-start col-12 col-md-4 hover-zoomin animate__animated animate__fadeInRightBig animate__delay-1s p-4 mb-4">
+                <div class="work-item d-flex flex-column align-items-start col-12 col-md-4 offset-md-6 hover-zoomin animate__animated animate__fadeInRightBig animate__delay-1s p-4 mb-4">
                     <img src="images/find.svg" alt="Find icon" />
                     <h4>Find your match</h4>
                     <p>
                         The app uses a sophisticated algorithm to help you discover unique matches based on your interests. You have a chance to connect with someone from your nationality or ethnicity.
                     </p>
                 </div>
-                <div class="work-item d-flex flex-column align-items-start col-12 col-md-4 hover-zoomin animate__animated animate__zoomInRight animate__delay-2s p-4 mb-4">
+                <div class="work-item d-flex flex-column align-items-start col-12 col-md-4 offset-md-6 hover-zoomin animate__animated animate__zoomInRight animate__delay-2s p-4 mb-4">
                     <img src="images/profile.svg" alt="Plan icon" />
                     <h4>Choose a Plan</h4>
                     <p>
                         Pora is based on a freemium model, which offers basic features for free. Within a 3 months period, we hope you would have found your spark and established a lifetime connection.
                     </p>
                 </div>
-                <div class="work-item d-flex flex-column align-items-start col-12 col-md-4 hover-zoomin animate__animated animate__fadeInBottomRight animate__delay-3s p-4 mb-4">
+                <div class="work-item d-flex flex-column align-items-start col-12 col-md-4 offset-md-6 hover-zoomin animate__animated animate__fadeInBottomRight animate__delay-3s p-4 mb-4">
                     <img src="images/secure.svg" alt="Secure icon" />
                     <h4>Communicate Securely</h4>
                     <p>
@@ -176,10 +193,10 @@
         <div class="container">
             <div class="d-md-flex flex-column align-items-end download-content py-5">
                 <div class="download-img col-12 col-md-6">
-                    <img src="images/download-image.png" alt="Download image">
+                    <img src="images/download-image-new.png" alt="Download image">
                 </div>
-                <div class="download-text col-12 py-4 px-md-5 px-3">
-                    <div class="download-text-inner d-flex flex-column align-items-start col-12 col-md-4 p-sm-0">
+                <div class="download-text col-12 py-4 py-md-5 px-md-5 px-3">
+                    <div class="download-text-inner d-flex flex-column align-items-start col-12 col-md-5 py-sm-4 pl-sm-5 pr-sm-0">
                         <h2>Find love today!</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra scelerisque.
@@ -199,6 +216,31 @@
                     </div>
                 </div>
             </div>
+    </section>
+    
+    <section id="join" class="py-5">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="col-10 col-sm-8 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                    <h3>Join the Waitlist</h3>
+                    <p style="max-width: 100%;width: 250px;text-align: center;">Enjoy all of Pora's premium features for free for 30 days!</p>
+                    <div class="join-footer-form">
+                        <form action="javascript:void(0)" method="post" id="join-form">
+                            <div class="input-group align-items-center">
+                                <div class="md-form mb-2">    
+                                    <span id="footerUserEmail-info" class="info"></span><br />
+                                    <input type="email" name="footerUserEmail" id="footerUserEmail" class="demoInputBox" />
+                                    <label for="footerUserEmail">Enter your Email Address</label>
+                                </div>
+                                <span class="input-group-btn">
+                                    <button class="btn btn-theme px-4" type="submit">Join</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer class="py-3">

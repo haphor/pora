@@ -209,13 +209,15 @@ section {
 
 .static {
     width: 100%;
-    margin-bottom: -85px;
+    padding-top: 24px;
+    margin-bottom: -120px;
+    /* margin-bottom: -85px; */
 }
 
 #banner {
     height: 100vh;
     background-size: 100% 100%;
-    background-image: url('../images/full-banner-image.png');
+    background-image: url('../images/full-banner-image-new.png');
 }
 
 #userEmail {
@@ -230,7 +232,7 @@ section {
 .md-form label {
     top: 1.8rem;
     font-size: 13px;
-    left: 28%;
+    left: 5%;
 }
 
 #about {
@@ -313,7 +315,7 @@ h4 {
 }
 
 .download-img {
-    margin-bottom: -220px;
+    margin-bottom: -350px;
     z-index: 99;
 }
 
@@ -326,6 +328,15 @@ h4 {
     background: #43180a;
     border-radius: 30px;
     box-shadow: 0px 4px 20px rgba(201, 71, 30, 0.1);
+}
+
+.download-text-inner h2 {
+    color: #fff;
+}
+
+.download-text-inner p {
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 #footer-logo img,
@@ -344,6 +355,7 @@ footer {
 
 footer ul li {
     position: relative;
+    font-weight: bold;
 }
 
 footer ul li a {
@@ -382,6 +394,68 @@ footer ul li.vr span {
     color: #0f5132;
     background-color: #d1e7dd;
     border-color: #badbcc;
+}
+
+#join {
+    position: relative;
+    margin-bottom: 6rem;
+    background-size: cover;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/join-bg.png);
+}
+
+#footerUserEmail {
+    border-right: 0px;
+    padding-right: 20px;
+    border-radius: 30px 0px 0px 30px;
+    border: 1px solid rgba(201, 71, 30, 0.3);
+}
+
+#countdown {
+    background-color: #fff;
+}
+
+#countdown p {
+    color: #280E06;
+    font-size: 22px;
+    font-family: Roboto;
+    letter-spacing: 0.03em;
+}
+
+#launch_countdown {
+    display: flex;
+    align-items: baseline;
+    max-width: max-content;
+}
+
+#launch_countdown div {
+    display: inline-block;
+    margin: 10px;
+}
+
+#launch_countdown div span {
+    display: block;
+    font-weight: 400;
+}
+
+#launch_countdown div span.timer-indicator {
+    width: 55px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1rem;
+    background: linear-gradient(180deg, #C9471E 0%, #F36F45 100%);
+}
+
+#launch_countdown div span.timer-label {
+    color: #280e06;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 10px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -471,24 +545,30 @@ footer ul li.vr span {
     #banner {
         background-size: 160% 80%;
     }
-    #works .works-content {
-        background-size: 52%;
-    }
     .download-img img {
-        margin-left: -105px;
-    }
-}
-
-@media (max-width: 350px) {
-    .download-img img {
-        width: 500px;
+        margin-left: -120px;
     }
     #works .works-content {
-        background-size: 60%;
+        background-size: 66%;
     }
+}   }
+}   }
+}   }
+}   }
+}   }
+}   }
+}   }
+}   }
+}   }
+}   }
+}   }
+}   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 380px) {
+    #banner {
+        background-size: 160% 80%;
+    }
     .download-img img {
         margin-left: -120px;
     }
