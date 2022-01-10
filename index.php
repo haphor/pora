@@ -222,21 +222,25 @@
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="col-10 col-sm-8 col-md-6 d-flex flex-column justify-content-center align-items-center">
-                    <h3>Join the Waitlist</h3>
+                    <h3 style="color: #280E06;">Join the Waitlist</h3>
                     <p style="max-width: 100%;width: 250px;text-align: center;">Enjoy all of Pora's premium features for free for 30 days!</p>
                     <div class="join-footer-form">
                         <form action="javascript:void(0)" method="post" id="join-form">
                             <div class="input-group align-items-center">
                                 <div class="md-form mb-2">    
                                     <span id="footerUserEmail-info" class="info"></span><br />
-                                    <input type="email" name="footerUserEmail" id="footerUserEmail" class="demoInputBox" />
+                                    <input type="email" name="userEmail" id="footerUserEmail" class="demoInputBox" />
                                     <label for="footerUserEmail">Enter your Email Address</label>
                                 </div>
                                 <span class="input-group-btn">
-                                    <button class="btn btn-theme px-4" type="submit">Join</button>
+                                    <button class="btn btn-theme px-4" type="submit">
+                                        Join<span></span><span></span><span></span><span></span>
+                                    </button>
                                 </span>
                             </div>
                         </form>
+                        <span id="footer_error" style="display: none"></span>
+                        <div id="footer_show_message" style="display: none"></div>
                     </div>
                 </div>
             </div>

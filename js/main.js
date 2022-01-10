@@ -68,3 +68,31 @@ $(document).ready(function($) {
     });
     return false;
 });
+$(document).ready(function($) {
+    // hide messages 
+    $("#footer_error").hide();
+    $("#footer_show_message").hide();
+    // on submit...
+    $('#join-form').submit(function(e) {
+        e.preventDefault();
+        $("#footer_error").hide();
+        // email required
+        var email = $("input#footerUserEmail").val();
+        if (email == "") {
+            $("#footer_error").fadeIn().text("Email required");
+            $("input#footerUserEmail").focus();
+            return false;
+        }
+        // ajax
+        $.ajax({
+            type: "POST",
+            url: "wait.php",
+            data: $(this).serialize(), // get all form field value in serialize form
+            success: function(response) {
+                $("#footer_show_message").html(response).fadeIn();
+                $("#join-form").fadeOut();
+            }
+        });
+    });
+    return false;
+});
