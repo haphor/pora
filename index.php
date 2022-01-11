@@ -39,7 +39,7 @@
 
             <section id="banner" class="d-flex justofy-content-start">
                 <div class="container">
-                    <div class="d-flex align-items-center h-100">
+                    <div class="mobile-push d-flex align-items-center h-100">
                         <div class="d-flex flex-column items-justified-left col-12 col-md-5">
                             <h1 class="animate__animated animate__fadeInDownBig animate__slow mb-4">
                                 Find love that blooms and friendship that stands the test of time.
@@ -73,7 +73,7 @@
         <section id="countdown" class="py-3 py-md-0">
             <div class="container">
                 <div class="d-flex flex-md-row flex-column justify-content-around content-align-center align-items-center">
-                    <p>Launching Valentines Day 2022!</p>
+                    <p>Launching on Valentines Day 2022!</p>
                     <div id="launch_countdown"></div>
                 </div>
             </div>
@@ -197,10 +197,11 @@
                 </div>
                 <div class="download-text col-12 py-4 py-md-5 px-md-5 px-3">
                     <div class="download-text-inner d-flex flex-column align-items-start col-12 col-md-5 py-sm-4 pl-sm-5 pr-sm-0">
-                        <h2>Find love today!</h2>
-                        <p>
+                        <!-- <h2>Find love today!</h2> -->
+                        <h2>Your search ends here!</h2>
+                        <!-- <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra scelerisque.
-                        </p>
+                        </p> -->
                         <div class="download-cta d-flex justify-content-between col-10 p-0 animate__animated animate__pulse animate__delay-2s animate__infinite">
                             <div class="col-6 pl-0">
                                 <a href="#banner">
@@ -226,7 +227,7 @@
                     <p style="max-width: 100%;width: 250px;text-align: center;">Enjoy all of Pora's premium features for free for 30 days!</p>
                     <div class="join-footer-form">
                         <form action="javascript:void(0)" method="post" id="join-form">
-                            <div class="input-group align-items-center">
+                            <div class="d-flex align-items-center">
                                 <div class="md-form mb-2">    
                                     <span id="footerUserEmail-info" class="info"></span><br />
                                     <input type="email" name="userEmail" id="footerUserEmail" class="demoInputBox" />

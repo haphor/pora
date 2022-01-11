@@ -457,6 +457,16 @@ footer ul li.vr span {
     margin-top: 10px;
     text-align: center;
 }
+#kente {
+    position: relative;
+    height: 6rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/kente.png);
+}
+#kente img {
+    display: none;
+}
 
 @media (max-width: 768px) {
     .static {
@@ -464,7 +474,7 @@ footer ul li.vr span {
         padding-top: 1rem;
         z-index: 99;
     }
-    #banner {
+    /*#banner {
         background-size: 120% 90%;
         background-repeat: no-repeat;
         background-position: bottom right;
@@ -476,6 +486,18 @@ footer ul li.vr span {
         width: 100%;
         height: 100%;
         background-color: rgba(255, 255, 255, 0.5);
+    }*/
+    #banner {
+        background-size: 80% 48%;
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+    .mobile-push {
+        padding-top: 60%;
+    }
+    h1 {
+    	font-size: 2rem;
+    	line-height: 1;
     }
     #works .works-content {
         background-size: 40%;
@@ -495,7 +517,7 @@ footer ul li.vr span {
     }
     .download-img img {
         width: 530px;
-        margin-top: -150px;
+        margin-top: -200px;
         margin-left: -25px;
     }
     .download-text {
@@ -514,63 +536,54 @@ footer ul li.vr span {
     footer ul li.vr span {
         display: none;
     }
+    #join {
+        background-size: contain;
+        background-position: top center;
+    }
 }
 
 @media (max-width: 500px) {
     #banner {
-        background-size: 140% 90%;
+        background-size: contain;
+    }
+    .mobile-push {
+        padding-top: 45%;
     }
     #works .works-content {
         padding-top: 330px;
     }
     .download-img img {
-        margin-left: -50px;
+        margin-left: -43px;
     }
 }
 
 @media (max-width: 400px) {
-    #banner {
+    /*#banner {
         background-size: 150% 85%;
+    }*/
+    .mobile-push {
+        padding-top: 30%;
     }
     #works .works-content {
         padding-top: 270px;
+    	padding-bottom: 20px;
         background-size: 50%;
     }
     .download-img img {
-        margin-left: -90px;
+        width: 370px;
+        margin-top: -160px;
+        margin-left: -14px;
     }
 }
 
 @media (max-width: 380px) {
-    #banner {
+    /*#banner {
         background-size: 160% 80%;
-    }
+    }*/
     .download-img img {
-        margin-left: -120px;
-    }
-    #works .works-content {
-        background-size: 66%;
-    }
-}   }
-}   }
-}   }
-}   }
-}   }
-}   }
-}   }
-}   }
-}   }
-}   }
-}   }
-}   }
-}
-
-@media (max-width: 380px) {
-    #banner {
-        background-size: 160% 80%;
-    }
-    .download-img img {
-        margin-left: -120px;
+        width: 320px;
+        margin-top: -140px;
+        margin-left: -29px;
     }
     #works .works-content {
         background-size: 66%;
