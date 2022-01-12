@@ -88,7 +88,7 @@
                 <div class="about-text col-12 col-md-4 p-4 mb-4 mb-md-0">
                     <h2 class="mb-3">About PORA</h2>
                     <p>
-                        Pora is a dating and friendship community for single Africans within the age range of 30 - 60+ in the diaspora. Meet thousands of like-minded African singles wherever you are in the world and connect at lightning speed.
+                        Pora is a dating and friendship community for single Africans within the age range of 25 - 60+ in the diaspora. Meet thousands of like-minded African singles wherever you are in the world and connect at lightning speed.
                     </p>
                 </div>
             </div>
