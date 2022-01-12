@@ -88,7 +88,7 @@
                 <div class="about-text col-12 col-md-4 p-4 mb-4 mb-md-0">
                     <h2 class="mb-3">About PORA</h2>
                     <p>
-                        Pora is a dating and friendship community for mature African singles in the diaspora. Meet thousands of like-minded African singles wherever you are in the world and connect at lightning speed.
+                        Pora is a dating and friendship community for single Africans witin the age range of 30 - 60+ in the diaspora. Meet thousands of like-minded African singles wherever you are in the world and connect at lightning speed.
                     </p>
                 </div>
             </div>
@@ -109,7 +109,7 @@
                 <img src="images/avatar-2.png" alt="Single Africans" />
             </div>
             <div class="hover-zoomin animate__animated animate__jackInTheBox">
-                <img src="images/avatar-3.png" alt="Single Africans" />
+                <img src="images/avatar-3-3.png" alt="Single Africans" />
             </div>
             <div class="hover-zoomin animate__animated animate__rotateIn animate__delay-1s">
                 <img src="images/avatar-4.png" alt="Single Africans" />
@@ -129,7 +129,7 @@
                 <img src="images/avatar-8.png" alt="Single Africans" />
             </div>
             <div class="hover-zoomin animate__animated animate__jackInTheBox animate__delay-2s">
-                <img src="images/avatar-9.png" alt="Single Africans" />
+                <img src="images/avatar-9-9.png" alt="Single Africans" />
             </div>
             <div class="hover-zoomin animate__animated animate__rotateIn animate__delay-3s">
                 <img src="images/avatar-10.png" alt="Single Africans" />
