@@ -31,7 +31,7 @@
                 <div class="container">
                     <div id="logo" class="d-flex justify-content-start">
                         <a href="#">
-                            <img src="images/logo-new.png" alt="PORA Logo" />
+                            <img src="images/logo-newest.png" alt="PORA Logo" />
                         </a>
                     </div>
                 </div>
