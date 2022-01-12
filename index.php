@@ -42,7 +42,7 @@
                     <div class="mobile-push d-flex align-items-center h-100">
                         <div class="d-flex flex-column items-justified-left col-12 col-md-5">
                             <h1 class="animate__animated animate__fadeInDownBig animate__slow mb-4">
-                                Find love that blooms and friendship that stands the test of time.
+                                Find love that blooms and friendships that stand the test of time.
                             </h1>
                             <p style="max-width: 100%;width: 350px;font-size: 1rem;margin-bottom: 5px;" class="pl-2 animate__animated animate__shakeX animate__slow animate__delay-2s animate__infinite">
                                 Join the waitlist to enjoy all of Pora's premium features for free for 30 days!
@@ -79,6 +79,7 @@
             </div>
         </section>
     </div>
+
     <section id="about" class="py-md-0 py-3">
         <div class="container">
             <div class="d-md-flex justify-content-around align-items-center align-content-center py-2 py-md-5">
@@ -98,7 +99,6 @@
     <section id="kente" class="py-md-0 py-3">
         <img style="width: 100%;" src="images/kente.png" alt="PORA Kente" />
     </section>
-
 
     <section id="avatar" class="py-5">
         <div class="d-flex justify-content-between col-12 p-0">
@@ -256,12 +256,13 @@
                         <img src="images/logo.png" alt="PORA Logo" />
                     </a>
                 </div>
-                <ul class="footer-social-links col-sm-3 p-0 d-md-flex flex-row justify-content-between align-items-center m-0">
-                    <li><a href="https://www.facebook.com/GetPora/" target="_blank">Facebook</a></li>
+                <ul class="footer-social-links col-sm-3 p-0 d-flex flex-row flex-wrap justify-content-between align-items-center m-0">
+                    <li>Follow us on:</li>
+                    <li><a href="https://www.instagram.com/getpora/" target="_blank"><i class="fa fa-3 fa-instagram" aria-hidden="true"></i></a></li>
                     <li class="vr"><span></span></li>
-                    <li><a href="https://www.instagram.com/getpora/" target="_blank">Instagram</a></li>
+                    <li><a href="https://twitter.com/getpora/" target="_blank"><i class="fa fa-3 fa-twitter-square" aria-hidden="true"></i></a></li>
                     <li class="vr"><span></span></li>
-                    <li><a href="https://twitter.com/getpora/" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.facebook.com/GetPora/" target="_blank"><i class="fa fa-3 fa-facebook-square" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>

@@ -468,6 +468,10 @@ footer ul li.vr span {
     display: none;
 }
 
+.fa-3 {
+    font-size: 2rem;
+}
+
 @media (max-width: 768px) {
     .static {
         position: sticky;
@@ -526,16 +530,22 @@ footer ul li.vr span {
     footer {
         text-align: center;
     }
-    footer #footer-logo,
+    footer #footer-logo {
+        margin: 0px auto 25px !important;
+    }
     footer .footer-social-links {
+        max-width: 150px;
         margin: 0px auto 15px !important;
     }
     footer .footer-social-links li {
         margin-bottom: 10px;
     }
-    footer ul li.vr span {
-        display: none;
+    footer .footer-social-links li:first-child {
+        width: 100%;
     }
+    /*footer ul li.vr span {
+        display: none;
+    }*/
     #join {
         background-size: contain;
         background-position: top center;
