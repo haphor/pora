@@ -70,7 +70,7 @@
             </section>
         </section>
 
-        <section id="countdown" class="py-3 py-md-0">
+        <section id="countdown" class="py-3 py-md-0" style="display: none;">
             <div class="container">
                 <div class="d-flex flex-md-row flex-column justify-content-around content-align-center align-items-center">
                     <p>Launching on Valentines Day 2022!</p>
