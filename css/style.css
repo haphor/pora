@@ -471,7 +471,11 @@ footer ul li.vr span {
 .fa-3 {
     font-size: 2rem;
 }
-
+@media (min-width: 768px) {
+    marquee p {
+        padding-top: 15px
+    }
+}
 @media (max-width: 768px) {
     .static {
         position: sticky;
@@ -549,6 +553,10 @@ footer ul li.vr span {
     #join {
         background-size: contain;
         background-position: top center;
+    }
+    #countdown p {
+        font-size: 18px;
+        font-weight: 500;
     }
 }
 
