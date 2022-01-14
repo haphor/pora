@@ -459,7 +459,7 @@ footer ul li.vr span {
 }
 #kente {
     position: relative;
-    height: 4rem;
+    height: 2rem;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-image: url(../images/kente-new.png);
@@ -557,6 +557,9 @@ footer ul li.vr span {
     #countdown p {
         font-size: 18px;
         font-weight: 500;
+    }
+    #kente {
+        height: 1.3rem;
     }
 }
 

@@ -99,7 +99,7 @@
         </div>
     </section>
 
-    <section id="kente" class="py-md-0 py-3">
+    <section id="kente" class="py-md-0">
         <img style="width: 100%;" src="images/kente-new.png" alt="PORA Kente" />
     </section>
 
