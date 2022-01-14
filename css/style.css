@@ -459,10 +459,10 @@ footer ul li.vr span {
 }
 #kente {
     position: relative;
-    height: 6rem;
+    height: 4rem;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-image: url(../images/kente.png);
+    background-image: url(../images/kente-new.png);
 }
 #kente img {
     display: none;

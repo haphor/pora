@@ -100,7 +100,7 @@
     </section>
 
     <section id="kente" class="py-md-0 py-3">
-        <img style="width: 100%;" src="images/kente.png" alt="PORA Kente" />
+        <img style="width: 100%;" src="images/kente-new.png" alt="PORA Kente" />
     </section>
 
     <section id="avatar" class="py-5">
