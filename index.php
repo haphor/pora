@@ -112,7 +112,7 @@
                 <img src="images/avatar-2.png" alt="Single Africans" />
             </div>
             <div class="hover-zoomin animate__animated animate__jackInTheBox">
-                <img src="images/avatar-3-3.png" alt="Single Africans" />
+                <img src="images/avatar-3-3-3.png" alt="Single Africans" />
             </div>
             <div class="hover-zoomin animate__animated animate__rotateIn animate__delay-1s">
                 <img src="images/avatar-4.png" alt="Single Africans" />
@@ -126,7 +126,7 @@
         </div>
         <div class="d-flex justify-content-between col-12 p-0">
             <div class="hover-zoomin animate__animated animate__rotateIn animate__delay-2s">
-                <img src="images/avatar-7-7.png" alt="Single Africans" />
+                <img src="images/avatar-7-7-7.png" alt="Single Africans" />
             </div>
             <div class="hover-zoomin animate__animated animate__zoomIn animate__delay-2s">
                 <img src="images/avatar-8.png" alt="Single Africans" />
