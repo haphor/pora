@@ -60,7 +60,7 @@
 	        	<div class="d-flex flex-column align-items-center justify-content-around mb-4">
 					<h2>Login</h2>
                     <div class="col-12 col-md-8 pl-0">
-                        <!-- <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post"> -->
+                        <!-- <form action="<?php //echo $_SERVER["PHP_SELF"]; ?>" method="post"> -->
                         <form action="inc/authenticate.php" method="post">
                             <div class="col col-12 md-form p-0 mb-1">
                                 <span id="userEmail-info" class="info"></span><br />

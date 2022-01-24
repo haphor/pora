@@ -27,6 +27,7 @@
                 $_SESSION['name'] = $username;
                 $_SESSION['id'] = $id;
                 echo 'Welcome ' . $username . '!';
+                // Redirect to the login page:
                 header('Location: ../export.php');
             } else {
                 // Incorrect password

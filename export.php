@@ -1,4 +1,8 @@
 <?php
+ 
+	include_once("inc/config.php");
+	include("inc/excel.php"); 
+
 	// We need to use sessions, so you should always start sessions using the below code.
 	session_start();
 	// If the user is not logged in redirect to the login page...
@@ -6,9 +10,6 @@
 		header('Location: allow-access.php');
 		exit;
 	}
- 
-	include_once("inc/config.php");
-	include("inc/excel.php"); 
 ?>
 
 <!DOCTYPE html>
@@ -72,8 +73,8 @@
                 </div>
             </div>
         </header>
-        <div class="container">
-        	<div class="about-text col-12 p-4 mb-4 mb-md-0 animate__animated animate__fadeInUp animate__slower">
+        <div class="container pb-5">
+        	<div class="about-text col-12 p-4 animate__animated animate__fadeInUp animate__slower">
 	        	<div class="d-flex align-items-center justify-content-between mb-4">
 	        		<div>
 						<h2>Welcome <?=$_SESSION['name']?>!</h2>
@@ -105,6 +106,15 @@
 						<?php } ?>
 					</tbody>
 			    </table>
+				<div class="col-12 p-0 text-right">
+					<div class="btn-group">	
+						<form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post">					
+							<button type="submit" id="dataExport" name="dataExport" value="Export to excel" class="btn btn-block">
+								Export To Excel<span></span><span></span><span></span><span></span>
+							</button>
+						</form>
+					</div>
+				</div>
             </div>
         </div>
     </section>
