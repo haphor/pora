@@ -5,21 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pora Landing Page</title>
+    
+    <title>Pora</title>
+    <meta name="description" content="The dating & social app for Africans in the diaspora">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pora">
+    <meta name="twitter:description" content="The dating & social app for Africans in the diaspora">
+    <meta name="twitter:image" content="./images/blog.jpg">
+
+    <meta property="og:title" content="Pora">
+    <meta property="og:url" content="forward.anakle.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./images/blog.jpg">
+    <meta property="og:description" content="The dating & social app for Africans in the diaspora">
+    
     <!--Favicon-->
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    
     <!-- Font Awesome-->
     <link href="font/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    
     <!-- Bootstrap Core CSS-->
     <link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css" media="screen,projection" />
+    
     <!-- Material Design Bootstrap CSS -->
     <link type="text/css" rel="stylesheet" href="./css/mdb.min.css" media="screen,projection" />
+    
     <!-- My Animations CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
     <!-- My custom CSS -->
     <link type="text/css" rel="stylesheet" href="./css/style.css" media="screen,projection" />
 </head>
@@ -156,6 +176,14 @@
         </div>
     </section>
 
+    <section id="animation">
+        <div class="container">
+            <div class="iframe-container d-flex align-items-center justify-content-around">
+                <iframe width="560" height="314" src="https://www.youtube.com/embed/5yKJXAucbVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
     <section id="works" class="py-5">
         <div class="container">
             <h2 class="text-center mb-md-5 mb-2">How PORA works</h2>
@@ -276,7 +304,7 @@
     <!-- jQuery Ui -->
     <script type="text/javascript" src="./js/jquery-ui.min.js"></script>
     <!-- jQuery migrate -->
-    <script src="http://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="./js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->

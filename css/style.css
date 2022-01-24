@@ -220,7 +220,8 @@ section {
     background-image: url('../images/full-banner-image-new.png');
 }
 
-#userEmail {
+#userEmail,
+#userPassword {
     background: #fff;
     font-size: 0.9rem;
     text-align: center;
@@ -471,11 +472,40 @@ footer ul li.vr span {
 .fa-3 {
     font-size: 2rem;
 }
+
+/*.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}*/
+iframe a.ytp-impression-link {
+    display: none !important;
+}
+
 @media (min-width: 768px) {
     marquee p {
         padding-top: 15px
     }
 }
+/*@media (max-width: 992px) {
+    #animation iframe {
+        max-width: 100%;
+        height: 94vh;
+    }
+}
+@media (max-width: 800px) {
+    #animation iframe {
+        height: 390px;
+    }
+}*/
 @media (max-width: 768px) {
     .static {
         position: sticky;
@@ -561,6 +591,16 @@ footer ul li.vr span {
     #kente {
         height: 1.3rem;
     }
+    /*#animation iframe {
+        height: 290px;
+    }*/
+}
+
+@media (max-width: 561px) {
+    #animation iframe {
+        width: 100%;
+        height: 265px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -576,6 +616,9 @@ footer ul li.vr span {
     .download-img img {
         margin-left: -43px;
     }
+    /*#animation iframe {
+        height: 266px;
+    }*/
 }
 
 @media (max-width: 400px) {
@@ -595,6 +638,9 @@ footer ul li.vr span {
         margin-top: -160px;
         margin-left: -14px;
     }
+    #animation iframe {
+        height: 209px;
+    }
 }
 
 @media (max-width: 380px) {
@@ -608,5 +654,14 @@ footer ul li.vr span {
     }
     #works .works-content {
         background-size: 66%;
+    }
+    #animation iframe {
+        height: 197px;
+    }
+}
+
+@media (max-width: 320px) {
+    #animation iframe {
+        height: 161px;
     }
 }

@@ -58,7 +58,7 @@ $(document).ready(function($) {
         // ajax
         $.ajax({
             type: "POST",
-            url: "wait.php",
+            url: "inc/wait.php",
             data: $(this).serialize(), // get all form field value in serialize form
             success: function(response) {
                 $("#show_message").html(response).fadeIn();
@@ -86,7 +86,7 @@ $(document).ready(function($) {
         // ajax
         $.ajax({
             type: "POST",
-            url: "wait.php",
+            url: "inc/wait.php",
             data: $(this).serialize(), // get all form field value in serialize form
             success: function(response) {
                 $("#footer_show_message").html(response).fadeIn();
